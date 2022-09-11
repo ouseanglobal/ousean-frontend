@@ -15,9 +15,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "pre-commit": {
+    "run": ["lint"]
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
     "eslint": "^7.32.0 || ^8.2.0",
