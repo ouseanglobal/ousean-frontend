@@ -16,9 +16,12 @@
     "react-dom": "18.2.0"
   },
   "pre-commit": {
-    "run": ["lint"]
+    "run": [
+      "lint"
+    ]
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^12.3.0",
     "autoprefixer": "^10.4.8",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
