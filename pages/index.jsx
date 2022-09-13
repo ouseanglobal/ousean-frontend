@@ -1,9 +1,12 @@
 import React from 'react';
+import Layout from '../src/components/Layout/Layout';
 
 export default function Home() {
   return (
-    <div className="h-screen flex justify-center items-center">
-      <h1 className="font-bold text-xl">Halo Dunia!</h1>
-    </div>
+    <Layout>
+      <div className="h-[500px] w-screen bg-slate-500 text-white flex justify-center items-center">
+        <h1>Hai Semuanya!</h1>
+      </div>
+    </Layout>
   );
 }
