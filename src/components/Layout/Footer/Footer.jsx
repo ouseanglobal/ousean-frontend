@@ -108,7 +108,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="py-5 w-full bg-white">
+      <div className="py-5 w-full bg-white border-t border-slate-200">
         <h3 className="font-bold text-center">OUSEAN GROUP | PT. OUSEAN GLOBAL DIGITAL</h3>
       </div>
     </footer>
