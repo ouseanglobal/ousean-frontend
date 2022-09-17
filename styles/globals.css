@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap");
+
+@layer components {
+    .button {
+        @apply rounded-[20px] w-[137px] h-12 font-semibold text-center text-xl;
+    }
+
+    .box-dropdown {
+        @apply w-80 bg-[#d9d9d9cc] p-3 right-[400px] rounded-[20px] absolute top-[70px];
+    }
+}
