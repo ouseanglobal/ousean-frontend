@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'linebreak-style': ['error', 'windows'],
+    'linebreak-style': 'off',
     'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
