@@ -56,6 +56,24 @@
   "resolved" "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   "version" "1.2.1"
 
+"@ionic/core@^6.2.6":
+  "integrity" "sha512-79VGvJ33YlCX/rhepfamL2YUQnqu3cruKMo0yFbrhyJWzoF3GTT/p371FHu1e+SdIZsMu/xcn+dkcTxQjEEcdA=="
+  "resolved" "https://registry.npmjs.org/@ionic/core/-/core-6.2.6.tgz"
+  "version" "6.2.6"
+  dependencies:
+    "@stencil/core" "^2.17.4"
+    "ionicons" "^6.0.3"
+    "tslib" "^2.1.0"
+
+"@ionic/react@^6.2.6":
+  "integrity" "sha512-sV1mMg5Wj62v/0+XTiH890biaAOHNmPw8xaWP3HOnjhtIJlT+Mr32RTs2e3LapH3lUYlIs2iNTW2q2gCnylW0Q=="
+  "resolved" "https://registry.npmjs.org/@ionic/react/-/react-6.2.6.tgz"
+  "version" "6.2.6"
+  dependencies:
+    "@ionic/core" "^6.2.6"
+    "ionicons" "^6.0.2"
+    "tslib" "*"
+
 "@next/env@12.3.0":
   "integrity" "sha512-PTJpjAFVbzBQ9xXpzMTroShvD5YDIIy46jQ7d4LrWpY+/5a8H90Tm8hE3Hvkc5RBRspVo7kvEOnqQms0A+2Q6w=="
   "resolved" "https://registry.npmjs.org/@next/env/-/env-12.3.0.tgz"
@@ -68,6 +86,9 @@
   dependencies:
     "glob" "7.1.7"
 
+"@next/swc-win32-x64-msvc@12.3.0":
+  "integrity" "sha512-C/nw6OgQpEULWqs+wgMHXGvlJLguPRFFGqR2TAqWBerQ8J+Sg3z1ZTqwelkSi4FoqStGuZ2UdFHIDN1ySmR1xA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.3.0.tgz"
 "@next/swc-linux-x64-gnu@12.3.0":
   "integrity" "sha512-4ajhIuVU9PeQCMMhdDgZTLrHmjbOUFuIyg6J19hZqwEwDTSqQyrSLkbJs2Nd7IRiM6Ul/XyrtEFCpk4k+xD2+w=="
   "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.3.0.tgz"
@@ -103,6 +124,16 @@
   "integrity" "sha512-LwzQKA4vzIct1zNZzBmRKI9QuNpLgTQMEjsQLf3BXuGYb3QPTP4Yjf6mkdX+X1mYttZ808QpOwAzZjv28kq7DA=="
   "resolved" "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz"
   "version" "1.1.4"
+
+"@stencil/core@^2.17.4":
+  "integrity" "sha512-NLEY8Jq59smyiivBAxHKipsp9YkkW/K/Vm90zAyXQqukb12i2SFucWHJ1Ik7ropVlhmMVvigyxXgRfQ9quIqtg=="
+  "resolved" "https://registry.npmjs.org/@stencil/core/-/core-2.18.0.tgz"
+  "version" "2.18.0"
+
+"@stencil/core@~2.16.0":
+  "integrity" "sha512-s/UJp9qxExL3DyQPT70kiuWeb3AdjbUZM+5lEIXn30I2DLcLYPOPXfsoWJODieQywq+3vPiLZeIdkoqjf6jcSw=="
+  "resolved" "https://registry.npmjs.org/@stencil/core/-/core-2.16.1.tgz"
+  "version" "2.16.1"
 
 "@swc/helpers@0.4.11":
   "integrity" "sha512-rEUrBSGIoSFuYxwBYtlUFMlE2CwGhmW+w9355/5oduSw8e5h2+Tj4UrAGNNgP9915++wj5vkQo0UuOBqOAq4nw=="
@@ -1091,6 +1122,13 @@
     "has" "^1.0.3"
     "side-channel" "^1.0.4"
 
+"ionicons@^6.0.2", "ionicons@^6.0.3":
+  "integrity" "sha512-kVOWER991EMqLiVShrCSWKMHkgHZP7XfVdyN6YPMuoO33W7pc5CPNVNfR8OMe/I8rYEbaunyBs6dXNYpR6gGZw=="
+  "resolved" "https://registry.npmjs.org/ionicons/-/ionicons-6.0.3.tgz"
+  "version" "6.0.3"
+  dependencies:
+    "@stencil/core" "~2.16.0"
+
 "is-bigint@^1.0.1":
   "integrity" "sha512-zB9CruMamjym81i2JZ3UMn54PKGsQzsJeo6xvN3HJJ4CAsQNB6iRutp2To77OfCNuoxspsIhzaPoO1zyCEhFOg=="
   "resolved" "https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.4.tgz"
@@ -1353,7 +1391,7 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@^12.3.0":
+"next@12.3.0":
   "integrity" "sha512-GpzI6me9V1+XYtfK0Ae9WD0mKqHyzQlGq1xH1rzNIYMASo4Tkl4rTe9jSqtBpXFhOS33KohXs9ZY38Akkhdciw=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.3.0.tgz"
   "version" "12.3.0"
@@ -1659,7 +1697,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@^18.2.0":
+"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16.8.6", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1672,7 +1710,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.6", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

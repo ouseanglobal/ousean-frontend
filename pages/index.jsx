@@ -1,12 +1,15 @@
 import React from 'react';
 import Layout from '../src/components/Layout/Layout';
+import Hero from '../src/components/hero';
+import Alasan from '../src/components/alasan';
+import Event from '../src/components/event';
 
 export default function Home() {
   return (
     <Layout>
-      <div className="h-[500px] w-full bg-slate-500 text-white flex justify-center items-center ">
-        <h1>Hai Semuanya!</h1>
-      </div>
+      <Hero />
+      <Alasan />
+      <Event />
     </Layout>
   );
 }
