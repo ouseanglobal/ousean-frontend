@@ -13,3 +13,15 @@
         @apply w-80 bg-[#d9d9d9cc] p-3 right-[400px] rounded-[20px] absolute top-[70px];
     }
 }
+
+::-webkit-scrollbar {
+    @apply w-3 bg-black;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply rounded-[2em] bg-white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#454f6b];
+}
