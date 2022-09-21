@@ -3,15 +3,17 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-100 pt-24 w-full">
+    <footer className="w-full bg-stone-100 pt-24">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-12 md:w-1/4 sm:w-1/2">
-            <h1 className="font-bold text-2xl py-5">LAYANAN PRODUK</h1>
+          <div className="mb-12 w-full px-4 sm:w-1/2 md:w-1/4">
+            <h1 className="py-5 text-lg font-bold md:text-xl">
+              LAYANAN PRODUK
+            </h1>
             <ul>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg ">
                     {' '}
                     One Step Abroad
                   </a>
@@ -19,47 +21,47 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Here Yugo
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Arusyd Indonesia
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Setudio
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Shedeserves
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Our Product
                   </a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="w-full px-4 mb-12 md:w-1/4 sm:w-1/2">
-            <h1 className="font-bold text-2xl py-5">TENTANG KAMI</h1>
+          <div className="mb-12 w-full px-4 sm:w-1/2 md:w-1/4">
+            <h1 className="py-5 text-lg font-bold md:text-xl ">TENTANG KAMI</h1>
             <ul>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     {' '}
                     Visi & Misi Perusahaan
                   </a>
@@ -67,26 +69,26 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Komunitas
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Struktur Perusahaan
                   </a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="w-full px-4 mb-12 md:w-1/4 sm:w-1/2">
-            <h1 className="font-bold text-2xl py-5">BANTUAN</h1>
+          <div className="mb-12 w-full px-4 sm:w-1/2 md:w-1/4">
+            <h1 className="py-5 text-lg font-bold md:text-xl">BANTUAN</h1>
             <ul>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     {' '}
                     FAQ
                   </a>
@@ -94,48 +96,47 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Syarat & Ketentuan
                   </a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="w-full px-4 mb-12 md:w-1/4 sm:w-1/2">
-            <h1 className="font-bold text-2xl py-5">SOCIAL MEDIA</h1>
+          <div className="mb-12 w-full px-4 sm:w-1/2 md:w-1/4">
+            <h1 className="py-5 text-lg font-bold md:text-xl">SOCIAL MEDIA</h1>
             <ul>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
-                    {' '}
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     LinkedIn
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Instagram
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Youtube
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     Email
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="">
-                  <a className="block hover:bg-slate-500 hover:px-2 hover:text-slate-100 font-semibold hover:font-bold py-2 ">
+                  <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg ">
                     Blog
                   </a>
                 </Link>
@@ -144,8 +145,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="py-5 w-full bg-white border-t border-slate-200">
-        <h3 className="font-bold text-center">
+      <div className="w-full border-t border-slate-200 bg-white py-5">
+        <h3 className="text-center text-sm font-bold md:text-lg">
           OUSEAN GROUP | PT. OUSEAN GLOBAL DIGITAL
         </h3>
       </div>
