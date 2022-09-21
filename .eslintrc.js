@@ -12,13 +12,11 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/jsx-props-no-spreading': 'off',
-    'react/no-unescaped-entities': 'off',
-    '@next/next/no-page-custom-font': 'off',
     'linebreak-style': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'react/button-has-type': 'off',
-    'import/newline-after-import': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-confusing-arrow': 'off',
   },
 };
