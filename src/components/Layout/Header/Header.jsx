@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function Header() {
   return (
-    <div className="h-[500px] w-full bg-slate-500 text-white flex justify-center items-center ">
+    <div className="flex h-[500px] w-full items-center justify-center bg-slate-500 text-white ">
       <h1>Hai Semuanya!</h1>
     </div>
   );

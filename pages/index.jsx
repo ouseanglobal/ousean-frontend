@@ -1,10 +1,6 @@
-import React from "react";
-import Layout from "../src/components/Layout/Layout";
+import React from 'react';
+import Layout from '../src/components/Layout/Layout';
 
-export default function Home() {
-  return (
-    <Layout>
-      <div className="h-[500px] w-full bg-slate-500 text-white flex justify-center items-center "></div>
-    </Layout>
-  );
+export default function Home(children) {
+  return <Layout>{children}</Layout>;
 }
