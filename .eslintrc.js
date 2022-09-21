@@ -19,5 +19,6 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-confusing-arrow': 'off',
     'react/react-in-jsx-scope': 'off',
+    'import/newline-after-import': 'off',
   },
 };
