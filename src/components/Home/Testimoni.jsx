@@ -12,7 +12,7 @@ export default function Testimoni() {
             <div className="absolute top-1/2 -left-7 z-10 flex h-10 w-10 rounded-full bg-slate-400">
               <span className="mx-auto translate-y-1 text-2xl">
                 <Image
-                  src="/img/arrow-left.png"
+                  src="/img/testimoni/arrow-left.png"
                   alt="Left"
                   width={20}
                   height={20}
@@ -22,7 +22,7 @@ export default function Testimoni() {
           </div>
           <span className="float-left px-3">
             <Image
-              src="/img/iqbal.png"
+              src="/img/testimoni/iqbal.png"
               alt="Muhammad Iqbal"
               width={50}
               height={50}
@@ -44,7 +44,7 @@ export default function Testimoni() {
         <div className="font-Intern mb-7 mt-7 rounded-xl bg-stone-100 p-5 shadow-lg sm:mx-5 sm:h-80 sm:w-96 md:h-96 md:w-96 lg:w-96">
           <span className="float-left px-3 ">
             <Image
-              src="/img/andreas.png"
+              src="/img/testimoni/andreas.png"
               alt="Andreas B.W. Katon Raharjo"
               width={50}
               height={50}
@@ -72,7 +72,7 @@ export default function Testimoni() {
             <div className="absolute top-1/2 -right-7 z-10 flex h-10 w-10 rounded-full bg-slate-400">
               <span className="mx-auto translate-y-1 text-2xl">
                 <Image
-                  src="/img/arrow-right.png"
+                  src="/img/testimoni/arrow-right.png"
                   alt="Left"
                   width={20}
                   height={20}
@@ -82,7 +82,7 @@ export default function Testimoni() {
           </div>
           <span className="float-left px-3 ">
             <Image
-              src="/img/arsyi.png"
+              src="/img/testimoni/arsyi.png"
               alt="Arsyi Zakaria"
               width={50}
               height={50}

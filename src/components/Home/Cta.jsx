@@ -14,7 +14,7 @@ export default function Cta() {
             <Link href="">
               <a className="mx-auto flex rounded-xl bg-red-700 p-3 px-5 shadow-lg md:px-8">
                 <Image
-                  src="/img/hubungi.png"
+                  src="/img/cta/hubungi.png"
                   alt="Hubungi Kami"
                   width={23}
                   height={20}
@@ -29,7 +29,7 @@ export default function Cta() {
         <div className="relative flex overflow-hidden md:w-1/2">
           <div className="z-10 mx-auto -mb-2 w-full min-w-full lg:-mr-3 xl:-mr-44 2xl:translate-x-96">
             <Image
-              src="/img/cs.png"
+              src="/img/cta/cs.png"
               alt="Image Photo"
               width={500}
               height={500}
