@@ -2,14 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-import Cta from '../Home/Cta';
-import Testimoni from '../Home/Testimoni';
-export default function Layout() {
+export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <Testimoni />
-      <Cta />
+      {children}
       <Footer />
     </>
   );
