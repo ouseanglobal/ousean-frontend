@@ -4,10 +4,12 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Cta from '../Home/Cta';
 import Testimoni from '../Home/Testimoni';
+import Partner from '../Home/Partner';
 export default function Layout() {
   return (
     <>
       <Header />
+      <Partner />
       <Testimoni />
       <Cta />
       <Footer />
