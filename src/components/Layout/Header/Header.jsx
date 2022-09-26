@@ -9,12 +9,12 @@ import Button from './Button';
 export default function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="bg-white h-[100px] shadow-lg fixed top-0 z-10 left-0 right-0 ">
+    <header className="fixed top-0 left-0 right-0 z-10 h-[100px] bg-white shadow-lg ">
       {/* Ionic icon library */}
       <Script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" />
       <Script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />
-      <div className="flex items-center font-medium md:justify-between md:px-12 justify-center ">
-        <div className="flex items-center z-50 md:w-auto w-full justify-between pr-6">
+      <div className="flex items-center justify-center font-medium md:justify-between md:px-12 ">
+        <div className="z-50 flex w-full items-center justify-between pr-6 md:w-auto">
           <div className="flex items-center">
             <Image
               src={logo}
@@ -23,7 +23,7 @@ export default function Header() {
               alt="Logo Ousean"
               className="md:cursor-pointer"
             />
-            <h4 className=" lg:block font-Montserrat font-bold text-xl">
+            <h4 className=" font-Montserrat text-xl font-bold lg:block">
               OUSEAN GROUP
             </h4>
           </div>
@@ -31,17 +31,17 @@ export default function Header() {
             <ion-icon name={`${open ? 'close-outline' : 'menu-outline'}`} />
           </div>
         </div>
-        <ul className="md:flex hidden items-center gap-9 font-Poppins font-medium text-xl ">
+        <ul className="hidden items-center gap-9 font-Poppins text-xl font-medium md:flex ">
           <Navlinks />
           <Button />
         </ul>
         <ul
-          className={`md:hidden bg-white fixed z-10 w-full h-full bottom-0 py-24 pl-4 duration-500 ${
+          className={`fixed bottom-0 z-10 h-full w-full bg-white py-24 pl-4 duration-500 md:hidden ${
             open ? 'left-0' : 'left-[-100%]'
           }`}
         >
           <li className="py-7 px-3">
-            <Link href="/" className="font-Poppins inline-block">
+            <Link href="/" className="inline-block font-Poppins">
               <a>Home</a>
             </Link>
           </li>

@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-export default function Layout({ children }) {
+import Partner from '../Home/Partner';
+export default function Layout() {
   return (
     <>
       <Header />
-      {children}
+      <Partner />
       <Footer />
     </>
   );
