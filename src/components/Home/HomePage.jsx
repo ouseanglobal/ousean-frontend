@@ -1,5 +1,8 @@
 import React from 'react';
 import Layout from '../Layout/Layout';
+// import Career from './Career/Career';
+import Hero from '../Hero/Hero';
+import Visimis from '../VisiMisi/Visimisi';
 import Alasan from './Alasan/Alasan';
 import Cta from './Cta/Cta';
 import Event from './Event/Event';
@@ -11,6 +14,7 @@ function HomePage() {
   return (
     <Layout>
       <Hero />
+      <Visimis />
       <Alasan />
       <Event />
       <Partner />
