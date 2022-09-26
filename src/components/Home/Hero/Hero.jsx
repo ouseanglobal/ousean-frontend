@@ -6,15 +6,15 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="lg:pt-[70px] pb-[80px] pt-[170px] bg-[#E3E6FF]"
+      className="lg:pt-[70px] pb-[80px] pt-[170px] bg-[#E3E6FF] flex justify-center"
     >
       <div className="container">
         <div className="flex flex-wrap items-center justify-center gap-0">
           <div className="w-full lg:pl-[80px] lg:w-1/2 flex flex-wrap justify-center lg:block">
-            <h1 className="font-Poppins font-semibold lg:text-[48px] text-4xl text-[#414141] text-center lg:text-start">
+            <h1 className="font-Poppins font-semibold lg:text-[48px] text-4xl text-[#414141] text-center lg:text-start leading-[72px]">
               {' '}
               WUJUDKAN IMPIANMU DENGAN
-              <span className=" text-[#199DE7]">OUSEAN</span>
+              <span className=" text-[#199DE7]"> OUSEAN</span>
             </h1>
             <div className="w-[320px] text-justify pt-[50px]">
               <h4 className="font-Poppinss font-light text-sm text-[#414141]">
