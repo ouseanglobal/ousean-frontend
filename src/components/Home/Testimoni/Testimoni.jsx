@@ -8,7 +8,7 @@ export default function Testimoni() {
       </h1>
       <div className="justify-center overflow-hidden px-3 sm:flex sm:flex-wrap md:flex lg:flex lg:px-0">
         <div className="font-Intern  relative mb-7 mt-7 rounded-xl bg-stone-100 p-5 shadow-lg sm:mx-5 sm:h-80 sm:w-96 md:h-96 md:w-96 lg:w-96">
-          <div className="hidden xl:flex">
+          <div className="hidden hover:cursor-pointer hover:opacity-80 xl:flex">
             <div className="absolute top-1/2 -left-7 z-10 flex h-10 w-10 rounded-full bg-slate-400">
               <span className="mx-auto translate-y-1 text-2xl">
                 <Image
@@ -68,11 +68,11 @@ export default function Testimoni() {
           </article>
         </div>
         <div className="font-Intern relative mb-7 mt-7 rounded-xl bg-stone-100 p-5 shadow-lg sm:mx-5 sm:h-80 sm:w-96 md:h-96 md:w-96 lg:w-96">
-          <div className="hidden xl:flex">
+          <div className="hidden hover:cursor-pointer hover:opacity-80 xl:flex">
             <div className="absolute top-1/2 -right-7 z-10 flex h-10 w-10 rounded-full bg-slate-400">
               <span className="mx-auto translate-y-1 text-2xl">
                 <Image
-                  src="/img/arrow-right.png"
+                  src="/img/testimoni/arrow-right.png"
                   alt="Left"
                   width={20}
                   height={20}

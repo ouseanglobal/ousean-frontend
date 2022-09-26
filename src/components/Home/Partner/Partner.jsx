@@ -10,7 +10,7 @@ export default function Partner() {
           </h1>
           <div className="flex flex-wrap items-center justify-center text-justify">
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/mandiri.svg"
                   alt="Mandiri"
@@ -20,7 +20,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/amartha.svg"
                   alt="Mandiri"
@@ -30,7 +30,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/paxel.svg"
                   alt="Mandiri"
@@ -40,7 +40,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/wahyoo.svg"
                   alt="Mandiri"
@@ -50,7 +50,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/cisco.svg"
                   alt="Mandiri"
@@ -60,7 +60,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-8 xl:mx-10">
+              <a className="mx-4 hover:opacity-70 lg:mx-8 xl:mx-10">
                 <Image
                   src="/img/partner/hubble.svg"
                   alt="Mandiri"
@@ -70,7 +70,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/legoas.svg"
                   alt="Mandiri"
@@ -80,7 +80,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/cbn.svg"
                   alt="Mandiri"
@@ -90,7 +90,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/ciputra.svg"
                   alt="Mandiri"
@@ -100,7 +100,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/income.svg"
                   alt="Mandiri"
@@ -110,7 +110,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/lazada.svg"
                   alt="Mandiri"
@@ -120,7 +120,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/unair.svg"
                   alt="Mandiri"
@@ -130,7 +130,7 @@ export default function Partner() {
               </a>
             </Link>
             <Link href="">
-              <a className="mx-4 lg:mx-5 xl:mx-7">
+              <a className="mx-4 hover:opacity-70 lg:mx-5 xl:mx-7">
                 <Image
                   src="/img/partner/jawapos.svg"
                   alt="Mandiri"
