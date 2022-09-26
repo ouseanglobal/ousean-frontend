@@ -5,6 +5,7 @@ import Cta from './Cta/Cta';
 import Event from './Event/Event';
 import Hero from './Hero/Hero';
 import Testimoni from './Testimoni/Testimoni';
+import Partner from './Partner';
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <Hero />
       <Alasan />
       <Event />
+      <Partner />
       <Testimoni />
       <Cta />
     </Layout>

@@ -8,7 +8,7 @@ export default function Event() {
     { icon: 'img/event/event-3.svg' },
   ];
   return (
-    <section id="portfolio" className="pt-28 pb-16">
+    <section id="portfolio" className="pt-28 pb-16 flex justify-center">
       <div className="container">
         <div className="w-full flex justify-center text-center">
           <h2 className="font-bold lg:text-3xl text-2xl mb-9 sm:text-4xl font-Poppins w-[722px]">
@@ -16,7 +16,7 @@ export default function Event() {
           </h2>
         </div>
 
-        <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+        <div className="w-full px-4 flex flex-wrap justify-center">
           {data.map((i) => (
             <div className="lg:w-1/3 w-full flex justify-center">
               <Image

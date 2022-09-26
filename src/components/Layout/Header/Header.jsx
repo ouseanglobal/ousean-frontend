@@ -9,7 +9,7 @@ import Button from './Button';
 export default function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="fixed top-0 left-0 right-0 z-10 h-[100px] bg-white shadow-lg ">
+    <header className="fixed top-0 left-0 right-0 z-40 h-[100px] bg-white shadow-lg ">
       {/* Ionic icon library */}
       <Script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" />
       <Script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />

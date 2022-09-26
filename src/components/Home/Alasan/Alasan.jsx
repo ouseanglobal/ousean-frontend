@@ -9,7 +9,7 @@ export default function Alasan() {
     { icon: 'img/alasan/alasan-4.svg', title: 'Cocok Untuk Kalangan Pemuda' },
   ];
   return (
-    <section id="portfolio" className="pt-28 pb-16">
+    <section id="portfolio" className="pt-28 pb-16 flex justify-center">
       <div className="container">
         <div className="w-full px-4 flex justify-center">
           <div className="max-w-xl text-center mb-16">
@@ -19,7 +19,7 @@ export default function Alasan() {
           </div>
         </div>
 
-        <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto gap-x-10">
+        <div className="w-full px-4 flex flex-wrap justify-center gap-x-10">
           {data.map((i) => (
             <div className="mb-12 p-4 md:w-[400px] bg-[#f0e2e2] shadow-lg rounded-[18px] h-[249px]">
               <Image

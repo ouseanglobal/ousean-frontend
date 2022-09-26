@@ -12,9 +12,9 @@ export default function Cta() {
           </h1>
           <div className="mt-10 flex">
             <Link href="">
-              <a className="mx-auto flex rounded-xl bg-cta2 p-3 px-5 shadow-lg md:px-8">
+              <a className="mx-auto flex rounded-xl bg-red-700 p-3 px-5 shadow-lg md:px-8">
                 <Image
-                  src="/img/cta/hubungi.png"
+                  src="/img/hubungi.png"
                   alt="Hubungi Kami"
                   width={23}
                   height={20}
@@ -29,7 +29,7 @@ export default function Cta() {
         <div className="relative flex overflow-hidden md:w-1/2">
           <div className="z-10 mx-auto -mb-2 w-full min-w-full lg:-mr-3 xl:-mr-44 2xl:translate-x-96">
             <Image
-              src="/img/cta/cs.png"
+              src="/img/cs.png"
               alt="Image Photo"
               width={500}
               height={500}
@@ -42,7 +42,7 @@ export default function Cta() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill="#A73C3C"
+                  fill="#b91c1c"
                   d="M57.4,-57.1C72.6,-42.3,81.8,-21.1,81.8,0C81.8,21.1,72.6,42.2,57.4,57.7C42.2,73.2,21.1,83.1,-0.6,83.7C-22.4,84.3,-44.7,75.7,-61,60.2C-77.3,44.7,-87.5,22.4,-87.7,-0.2C-87.8,-22.7,-77.9,-45.3,-61.6,-60.2C-45.3,-75,-22.7,-81.9,-0.8,-81.2C21.1,-80.4,42.3,-71.9,57.4,-57.1Z"
                   transform="translate(100 100) scale(1.1)"
                 />
