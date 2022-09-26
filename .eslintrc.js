@@ -20,5 +20,6 @@ module.exports = {
     'jsx-a11y/no-confusing-arrow': 'off',
     'react/react-in-jsx-scope': 'off',
     'import/newline-after-import': 'off',
+    'max-len': ['error', { code: 999999 }],
   },
 };
