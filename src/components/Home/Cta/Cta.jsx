@@ -3,18 +3,18 @@ import Link from 'next/link';
 
 export default function Cta() {
   return (
-    <section className="mb-40 rounded-l-xl rounded-tr-xl bg-indigo-900">
-      <div className="flex w-full flex-wrap overflow-y-hidden">
-        <div className="w-full items-center justify-center border-stone-50 px-3 pt-20 md:w-1/2">
+    <section className="mb-40 max-w-full rounded-l-xl rounded-tr-xl bg-indigo-900">
+      <div className="flex flex-wrap overflow-y-hidden">
+        <div className="items-center justify-center border-stone-50 px-3 pt-20 md:w-1/2">
           <h1 className="text-center text-2xl text-slate-200 md:text-2xl lg:text-4xl">
             Masih Bingung Untuk Gapai Karirmu Di Ousean Group? Konsultasikan
             Saja Dengan Kami Melalui Whatsapp
           </h1>
           <div className="mt-10 flex">
             <Link href="">
-              <a className="mx-auto flex rounded-xl bg-red-700 p-3 px-5 shadow-lg md:px-8">
+              <a className="mx-auto flex rounded-xl bg-red-700 p-3 px-5 shadow-lg hover:opacity-80 md:px-8">
                 <Image
-                  src="/img/hubungi.png"
+                  src="/img/cta/hubungi.png"
                   alt="Hubungi Kami"
                   width={23}
                   height={20}
@@ -26,15 +26,15 @@ export default function Cta() {
             </Link>
           </div>
         </div>
-        <div className="relative flex overflow-hidden md:w-1/2">
-          <div className="z-10 mx-auto -mb-2 w-full min-w-full lg:-mr-3 xl:-mr-44 2xl:translate-x-96">
+        <div className="relative flex w-full overflow-hidden md:w-1/2">
+          <div className="z-10 -mb-2 max-w-full sm:translate-x-36 md:-translate-x-0 lg:translate-x-10 xl:translate-x-44 2xl:translate-x-96">
             <Image
-              src="/img/cs.png"
+              src="/img/cta/cs.png"
               alt="Image Photo"
               width={500}
               height={500}
             />
-            <span className="absolute -bottom-32 -z-10 -ml-80 md:-bottom-52 lg:-bottom-24 lg:-translate-x-16">
+            <span className="absolute -bottom-32 -z-10 -ml-80 md:-bottom-52 lg:-bottom-40 lg:-translate-x-16">
               <svg
                 width={500}
                 height={500}
