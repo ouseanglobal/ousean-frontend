@@ -6,8 +6,6 @@ import Event from './Event/Event';
 import Cta from './Cta/Cta';
 import Testimoni from './Testimoni/Testimoni';
 import Partner from './Partner/Partner';
-// import Career from './Career/Career';
-// import Visimis from '../VisiMisi/Visimisi';
 
 function HomePage() {
   return (
@@ -15,9 +13,9 @@ function HomePage() {
       <Hero />
       <Alasan />
       <Event />
-      <Cta />
-      <Testimoni />
       <Partner />
+      <Testimoni />
+      <Cta />
     </Layout>
   );
 }

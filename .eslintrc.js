@@ -21,5 +21,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'import/newline-after-import': 'off',
     'max-len': ['error', { code: 999999 }],
+    'react/jsx-curly-newline': 'off',
   },
 };

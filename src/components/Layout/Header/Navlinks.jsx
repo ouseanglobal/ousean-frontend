@@ -1,3 +1,5 @@
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable no-confusing-arrow */
 import Link from 'next/link';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
@@ -12,7 +14,7 @@ export default function Navlinks({ setOpen }) {
         {
           Head: 'About Me',
           sublink: [
-            { name: 'Visi & Misi Perusahaan', link: '/' },
+            { name: 'Visi & Misi Perusahaan', link: '/VisiMisi' },
             { name: 'Komunitas', link: '/' },
             { name: 'Struktur Perusahaan', link: '/' },
           ],
@@ -38,12 +40,14 @@ export default function Navlinks({ setOpen }) {
     <>
       {links.map((link) => (
         <div>
-          <div className="px-3 text-left md:cursor-pointer group">
-            <div className="flex gap-1 justify-between">
+          <div className="group px-3 text-left md:cursor-pointer">
+            <div className="flex justify-between gap-1">
               <button
                 type="submit"
                 className="py-7"
-                onClick={() => (heading !== link.name ? setHeading(link.name) : setHeading(''))}
+                onClick={() =>
+                  heading !== link.name ? setHeading(link.name) : setHeading('')
+                }
               >
                 {link.name}
               </button>
@@ -51,7 +55,9 @@ export default function Navlinks({ setOpen }) {
                 src="/img/Vector.svg"
                 width={18}
                 height={13}
-                onClick={() => (heading !== link.name ? setHeading(link.name) : setHeading(''))}
+                onClick={() =>
+                  heading !== link.name ? setHeading(link.name) : setHeading('')
+                }
                 className={`${
                   heading === link.name ? 'rotate-180' : ''
                 } duration-150 `}
@@ -65,7 +71,7 @@ export default function Navlinks({ setOpen }) {
                   } duration-500`}
                 >
                   <div
-                    className={`py-3 absolute top-[-30px] ${
+                    className={`absolute top-[-30px] py-3 ${
                       link.name === 'Product' ? 'left-[50px]' : 'left-16'
                     }  scale-90`}
                   >
@@ -76,16 +82,16 @@ export default function Navlinks({ setOpen }) {
                       className="absolute"
                     />
                   </div>
-                  <div className="bg-[#d9d9d9cc] w-[300px] pl-3 py-3 rounded-xl relative right-28">
+                  <div className="relative right-28 w-[300px] rounded-xl bg-[#d9d9d9cc] py-3 pl-3">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="font-semibold font-Poppins text-2xl">
+                        <h1 className="font-Poppins text-2xl font-semibold">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm my-4">
+                          <li className="my-4 text-sm">
                             <Link href={slink.link}>
-                              <a className="text-[#ff0000] font-Montserrat font-normal text-xl hover:opacity-80">
+                              <a className="font-Montserrat text-xl font-normal text-[#ff0000] hover:opacity-80">
                                 {' '}
                                 {slink.name}
                               </a>
@@ -110,7 +116,7 @@ export default function Navlinks({ setOpen }) {
             {link.sublinks.map((slinks) => (
               <div>
                 <div>
-                  <h1 className="py-4 pl-7 font-semibold md:pr-0 pr-5">
+                  <h1 className="py-4 pl-7 pr-5 font-semibold md:pr-0">
                     {slinks.Head}
                   </h1>
                   <div>
