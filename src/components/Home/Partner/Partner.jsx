@@ -3,9 +3,9 @@ import Image from 'next/image';
 export default function Partner() {
   return (
     <section className="mt-40 mb-40 rounded-3xl bg-partners shadow-xl">
-      <div className="container px-7 py-10">
+      <div className="container mx-auto px-7 py-10">
         <div className="w-full px-4">
-          <h1 className="mx-auto mb-10 items-center justify-center text-center text-3xl font-bold text-slate-700">
+          <h1 className="mb-10 items-center justify-center text-center text-3xl font-bold text-slate-700">
             Hiring Partner
           </h1>
           <div className="flex flex-wrap items-center justify-center text-justify">
