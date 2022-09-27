@@ -19,20 +19,20 @@ export default function Alasan() {
   return (
     <section
       id="portfolio"
-      className="pt-28 pb-16 flex bg-[#D9D9D9] rounded-3xl"
+      className="flex rounded-3xl bg-[#D9D9D9] pt-28 pb-16"
     >
-      <div className="flex justify-center flex-wrap">
-        <div className="w-full flex justify-center">
-          <div className="max-w-xl text-center mb-16 flex justify-center">
-            <h2 className="font-bold text-3xl mb-4 sm:text-4xl font-Poppins text-center">
+      <div className="flex flex-wrap justify-center">
+        <div className="flex w-full justify-center">
+          <div className="mb-16 flex max-w-xl justify-center text-center">
+            <h2 className="mb-4 text-center font-Poppins text-3xl font-bold sm:text-4xl">
               Visi & Misi Kami
             </h2>
           </div>
         </div>
-        <div className="w-full px-4 flex flex-wrap justify-center gap-8">
+        <div className="flex w-full flex-wrap justify-center gap-8 px-4">
           {data.map((i) => (
             <div className="flex flex-wrap justify-center">
-              <div className="w-full flex justify-center pb-[26px]">
+              <div className="flex w-full justify-center pb-[26px]">
                 <Image
                   src={`/${i.icon}`}
                   width={65}
@@ -40,11 +40,11 @@ export default function Alasan() {
                   alt="Logo Ousean"
                 />
               </div>
-              <div className="px-8 md:w-[402px] bg-[#5F6FAA] shadow-lg rounded-[18px] h-[178px] font-Poppins">
-                <h3 className="text-[36px] font-semibold text-center pt-2">
+              <div className="h-[178px] rounded-[18px] bg-[#5F6FAA] px-8 font-Poppins shadow-lg md:w-[402px]">
+                <h3 className="pt-2 text-center text-[36px] font-semibold">
                   {i.title}
                 </h3>
-                <h3 className="font-semibold text-xl mt-3 font-Poppins">
+                <h3 className="mt-3 font-Poppins text-xl font-semibold">
                   {i.deskripsi}
                 </h3>
               </div>
