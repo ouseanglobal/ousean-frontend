@@ -53,7 +53,7 @@ export default function Career() {
     },
   ];
   return (
-    <section id="Career" className="pt-28 pb-16 flex justify-center">
+    <section id="Career" className="pt-32 pb-16 flex justify-center">
       <div className="container">
         <div className="text-center w-full py-10 bg-[#F8F8F8] font-Poppins text-[36px] font-semibold">Career</div>
         <div className="w-full px-4 flex flex-wrap gap-0 relative">
