@@ -5,8 +5,8 @@ import Alasan from './Alasan/Alasan';
 import Event from './Event/Event';
 import Cta from './Cta/Cta';
 import Testimoni from './Testimoni/Testimoni';
+import Partner from './Partner';
 // import Career from './Career/Career';
-// import Her from '../Hero/Hero';
 // import Visimis from '../VisiMisi/Visimisi';
 
 function HomePage() {
@@ -17,6 +17,7 @@ function HomePage() {
       <Event />
       <Cta />
       <Testimoni />
+      <Partner />
     </Layout>
   );
 }
