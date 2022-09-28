@@ -19,7 +19,7 @@ export default function Struktur() {
     },
   ];
   return (
-    <section className="bg-[#C7E2E3] pt-20">
+    <section className="bg-[#C7E2E3] pt-20 pb-10">
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-center">
           <h1 className="text-center text-3xl font-bold">Strukstur Ousean</h1>

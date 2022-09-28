@@ -27,7 +27,7 @@ export default function Cta() {
           </div>
         </div>
         <div className="relative flex w-full overflow-hidden md:w-1/2">
-          <div className="z-10 -mb-2 max-w-full sm:translate-x-36 md:-translate-x-0 lg:translate-x-10 xl:translate-x-44 2xl:translate-x-96">
+          <div className="z-10 -mb-2 max-w-full sm:translate-x-36 md:-translate-x-0 lg:translate-x-10 xl:translate-x-44 2xl:translate-x-[270px]">
             <Image
               src="/img/cta/cs.png"
               alt="Image Photo"
