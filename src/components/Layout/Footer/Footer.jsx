@@ -146,9 +146,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="w-full border-t border-slate-200 bg-white py-5">
-        <h3 className="text-center text-sm font-bold md:text-lg">
+        <h6 className="text-center text-sm font-semibold md:text-base">
           OUSEAN GROUP | PT. OUSEAN GLOBAL DIGITAL
-        </h3>
+        </h6>
       </div>
     </footer>
   );

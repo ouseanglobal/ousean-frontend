@@ -27,7 +27,7 @@ export default function Join() {
               <div className="item-center mt-5 flex justify-center">
                 <div className="md:-ml-64 md:flex-none lg:mt-8 xl:mt-10 2xl:mt-20">
                   <Link href="">
-                    <a className="mx-auto items-center justify-center rounded-xl bg-[#1813FF] px-5 py-2 font-semibold text-[#ffff] sm:-mt-2 xl:text-xl 2xl:text-2xl">
+                    <a className="mx-auto items-center justify-center rounded-xl bg-[#1813FF] px-5 py-2 font-semibold text-[#ffff] hover:opacity-80 sm:-mt-2 xl:text-xl 2xl:text-2xl">
                       Join Us
                     </a>
                   </Link>

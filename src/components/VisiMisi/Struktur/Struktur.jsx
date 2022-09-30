@@ -19,7 +19,7 @@ export default function Struktur() {
     },
   ];
   return (
-    <section className="bg-[#C7E2E3] pt-20 pb-10">
+    <section className="mb-40 bg-[#C7E2E3] pt-20 pb-10">
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-center">
           <h1 className="text-center text-3xl font-bold">Strukstur Ousean</h1>
@@ -47,7 +47,7 @@ export default function Struktur() {
           </div>
           <div className="mt-20 flex flex-wrap pb-5">
             <div className="hidden lg:flex">
-              <div className="">
+              <div>
                 <Image
                   src="/img/Struktur/1.svg"
                   width={20}
@@ -55,7 +55,7 @@ export default function Struktur() {
                   alt="pic"
                 />
               </div>
-              <div className="">
+              <div>
                 <Image
                   src="/img/Struktur/2.svg"
                   width={20}
@@ -63,7 +63,7 @@ export default function Struktur() {
                   alt="pic"
                 />
               </div>
-              <div className="">
+              <div>
                 <Image
                   src="/img/Struktur/3.svg"
                   width={20}
@@ -71,7 +71,7 @@ export default function Struktur() {
                   alt="pic"
                 />
               </div>
-              <div className="">
+              <div>
                 <Image
                   src="/img/Struktur/4.svg"
                   width={20}
@@ -79,7 +79,7 @@ export default function Struktur() {
                   alt="pic"
                 />
               </div>
-              <div className="">
+              <div>
                 <Image
                   src="/img/Struktur/5.svg"
                   width={20}
