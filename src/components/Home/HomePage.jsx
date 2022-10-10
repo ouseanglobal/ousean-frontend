@@ -4,8 +4,7 @@ import Hero from './Hero/Hero';
 import Alasan from './Alasan/Alasan';
 import Event from './Event/Event';
 import Cta from './Cta/Cta';
-import Testimoni from './Testimoni/Testimoni';
-import Partner from './Partner/Partner';
+import Fokus from './Fokus/Fokus';
 
 function HomePage() {
   return (
@@ -13,8 +12,7 @@ function HomePage() {
       <Hero />
       <Alasan />
       <Event />
-      <Partner />
-      <Testimoni />
+      <Fokus />
       <Cta />
     </Layout>
   );
