@@ -31,8 +31,10 @@ export default function Header() {
             <ion-icon name={`${open ? 'close-outline' : 'menu-outline'}`} />
           </div>
         </div>
-        <ul className="hidden items-center gap-9 font-Poppins text-xl font-medium md:flex ">
-          <Navlinks />
+        <ul className="hidden items-center gap-12 font-Poppins text-xl font-medium md:flex ">
+          <div className="md:flex">
+            <Navlinks />
+          </div>
           <Button />
         </ul>
         <ul

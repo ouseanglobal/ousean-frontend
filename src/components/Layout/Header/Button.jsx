@@ -6,7 +6,7 @@ export default function Button({ setOpen }) {
     <div className="flex gap-4">
       <button
         type="button"
-        className="bg-[#BAD3B6] text-[#195018] font-medium font-Montserrat text-2xl text-center px-5 rounded-3xl hover:opacity-90"
+        className="bg-[#D10000] text-white font-medium font-Poppins text-sm text-center py-2 px-3 rounded-md hover:opacity-90"
         onClick={() => {
           setOpen(false);
         }}
@@ -15,7 +15,7 @@ export default function Button({ setOpen }) {
       </button>
       <button
         type="button"
-        className="bg-[#43B031] text-white font-medium font-Montserrat text-2xl text-center py-2 px-5 rounded-3xl hover:opacity-90"
+        className="bg-[#0060D1] text-white font-medium font-Poppins text-sm text-center py-2 px-3 rounded-md hover:opacity-90"
         onClick={() => {
           setOpen(false);
         }}

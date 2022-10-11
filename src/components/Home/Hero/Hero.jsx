@@ -14,23 +14,23 @@ export default function Hero() {
               WUJUDKAN IMPIANMU DENGAN
               <span className=" text-[#199DE7]"> OUSEAN</span>
             </h1>
-            <div className="text-justify pt-[50px]">
+            <div className="text-justify pt-[10px]">
               <div className="flex justify-center lg:block">
-                <h4 className="font-Poppinss font-light text-sm text-[#414141] w-[225px] lg:w-[375px]">
+                <h4 className="font-Poppinss font-light text-base text-[#414141] w-[225px] lg:w-[375px]">
                   Mari Bergabung Dengan Ousean Group untuk meraih skill dan
                   pengalamanmu untuk yang belum memiliki pengalaman dan ingin
                   belajar untuk siap memulai di dunia kerja
                 </h4>
               </div>
-              <div className="flex justify-center lg:block">
+              <div className="flex justify-end lg:block ml-[40px] pt-[20px]">
                 <button
                   type="submit"
-                  className="bg-[#4ba73c] rounded-2xl md:w-[327px] w-[200px] h-[42px] text-white text-center font-semibold md:text-2xl text-xl mt-4 hover:opacity-80"
+                  className="bg-[#0060D1] rounded-[5px] px[40px] w-[200px] py-[20px] text-white text-center font-Inter font-semibold md:text-2xl text-xl mt-4 hover:opacity-80"
                 >
-                  Temukan Karirmu
+                  Get Started
                 </button>
               </div>
-              <div className="flex mt-12 w-[350px]">
+              {/* <div className="flex mt-12 w-[350px]">
                 <div className="w-1/2">
                   <Image src="/img/hero/foto-hero.svg" width={139} height={77} />
                 </div>
@@ -46,7 +46,7 @@ export default function Hero() {
                     </h4>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -8,21 +8,41 @@ import Image from 'next/image';
 export default function Navlinks({ setOpen }) {
   const links = [
     {
-      name: 'About Me',
+      name: 'Home',
+      submenu: false,
+    },
+    {
+      name: 'Page',
       submenu: true,
       sublinks: [
         {
-          Head: 'About Me',
+          Head: 'Page',
           sublink: [
-            { name: 'Visi & Misi Perusahaan', link: '/visi' },
-            { name: 'Komunitas', link: '/' },
-            { name: 'Struktur Perusahaan', link: '/' },
+            { name: 'About Me', link: '/visi' },
+            { name: 'Layanan Kami', link: '/' },
           ],
         },
       ],
     },
     {
       name: 'Product',
+      submenu: true,
+      sublinks: [
+        {
+          Head: 'Product',
+          sublink: [
+            { name: '1.svg', link: '/' },
+            { name: '2.png', link: '/' },
+            { name: '3.svg', link: '/' },
+            { name: '4.svg', link: '/' },
+            { name: '5.svg', link: '/' },
+            { name: '6.svg', link: '/' },
+          ],
+        },
+      ],
+    },
+    {
+      name: 'Portfolio',
       submenu: true,
       sublinks: [
         {
@@ -40,7 +60,7 @@ export default function Navlinks({ setOpen }) {
     <>
       {links.map((link) => (
         <div>
-          <div className="group px-3 text-left md:cursor-pointer">
+          <div className="group px-3 text-left md:cursor-pointer gap-0">
             <div className="flex justify-between gap-1">
               <button
                 type="submit"
@@ -52,15 +72,15 @@ export default function Navlinks({ setOpen }) {
                 {link.name}
               </button>
               <Image
-                src="/img/Vector.svg"
-                width={18}
-                height={13}
+                src="/img/arrow-nav.svg"
+                width={12}
+                height={12}
                 onClick={() =>
                   heading !== link.name ? setHeading(link.name) : setHeading('')
                 }
                 className={`${
                   heading === link.name ? 'rotate-180' : ''
-                } duration-150 `}
+                } duration-150 ${link.name === 'Home' ? 'opacity-0' : ''}`}
               />
             </div>
             {link.submenu && (
@@ -70,10 +90,10 @@ export default function Navlinks({ setOpen }) {
                     heading === link.name ? 'md:block' : ''
                   } duration-500`}
                 >
-                  <div
+                  {/* <div
                     className={`absolute top-[-30px] py-3 ${
                       link.name === 'Product' ? 'left-[50px]' : 'left-16'
-                    }  scale-90`}
+                    }  scale-90 ${link.name === 'Home' ? 'hidden' : ''}`}
                   >
                     <Image
                       src="/img/arrow.svg"
@@ -81,23 +101,36 @@ export default function Navlinks({ setOpen }) {
                       height={29}
                       className="absolute"
                     />
-                  </div>
+                  </div> */}
                   <div className="relative right-28 w-[300px] rounded-xl bg-[#d9d9d9cc] py-3 pl-3">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="font-Poppins text-2xl font-semibold">
                           {mysublinks.Head}
                         </h1>
-                        {mysublinks.sublink.map((slink) => (
+                        {mysublinks.Head !== 'Product' && mysublinks.sublink.map((slink) => (
                           <li className="my-4 text-sm">
                             <Link href={slink.link}>
                               <a className="font-Montserrat text-xl font-normal text-[#ff0000] hover:opacity-80">
-                                {' '}
                                 {slink.name}
                               </a>
                             </Link>
                           </li>
                         ))}
+                        <ul className=" flex justify-start flex-wrap">
+                          {mysublinks.Head === 'Product' && mysublinks.sublink.map((slink) => (
+                            <li className="font-Poppins text-2xl font-semibold">
+                              <Image
+                                src={`/img/Header/${slink.name}`}
+                                width={123}
+                                height={49}
+                                onClick={() =>
+                                  heading !== link.name ? setHeading(link.name) : setHeading('')
+                                }
+                              />
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     ))}
                   </div>
@@ -113,7 +146,7 @@ export default function Navlinks({ setOpen }) {
             `}
           >
             {/* Sublink */}
-            {link.sublinks.map((slinks) => (
+            {link.sublinks && link.sublinks.map((slinks) => (
               <div>
                 <div>
                   <h1 className="py-4 pl-7 pr-5 font-semibold md:pr-0">
