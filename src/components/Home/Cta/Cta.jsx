@@ -1,54 +1,30 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Cta() {
   return (
-    <section className="mb-40 max-w-full rounded-l-xl rounded-tr-xl bg-indigo-900">
-      <div className="flex flex-wrap overflow-y-hidden">
-        <div className="items-center justify-center border-stone-50 px-3 pt-20 md:w-1/2">
-          <h1 className="text-center text-2xl text-slate-200 md:text-2xl lg:text-4xl">
-            Masih Bingung Untuk Gapai Karirmu Di Ousean Group? Konsultasikan
-            Saja Dengan Kami Melalui Whatsapp
-          </h1>
-          <div className="mt-10 flex">
-            <Link href="">
-              <a className="mx-auto flex rounded-xl bg-red-700 p-3 px-5 shadow-lg hover:opacity-80 md:px-8">
-                <Image
-                  src="/img/cta/hubungi.png"
-                  alt="Hubungi Kami"
-                  width={23}
-                  height={20}
-                />
-                <span className="inline-block px-3 text-lg font-semibold text-slate-200 md:text-xl">
-                  Hubungi Kami
-                </span>
-              </a>
-            </Link>
+    <section className="mb-40">
+      <div className="container mx-auto">
+        <div className="flex flex-wrap">
+          <div className="mx-auto">
+            <Image src="/img/Cta/logo.svg" width={193} height={195} />
           </div>
-        </div>
-        <div className="relative flex w-full overflow-hidden md:w-1/2">
-          <div className="z-10 -mb-2 max-w-full sm:translate-x-36 md:-translate-x-0 lg:translate-x-10 xl:translate-x-44 2xl:translate-x-[270px]">
-            <Image
-              src="/img/cta/cs.png"
-              alt="Image Photo"
-              width={500}
-              height={500}
-            />
-            <span className="absolute -bottom-32 -z-10 -ml-80 md:-bottom-52 lg:-bottom-40 lg:-translate-x-16">
-              <svg
-                width={500}
-                height={500}
-                viewBox="0 0 200 200"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill="#b91c1c"
-                  d="M57.4,-57.1C72.6,-42.3,81.8,-21.1,81.8,0C81.8,21.1,72.6,42.2,57.4,57.7C42.2,73.2,21.1,83.1,-0.6,83.7C-22.4,84.3,-44.7,75.7,-61,60.2C-77.3,44.7,-87.5,22.4,-87.7,-0.2C-87.8,-22.7,-77.9,-45.3,-61.6,-60.2C-45.3,-75,-22.7,-81.9,-0.8,-81.2C21.1,-80.4,42.3,-71.9,57.4,-57.1Z"
-                  transform="translate(100 100) scale(1.1)"
-                />
-              </svg>
-            </span>
-          </div>
+          <article className="-mt-10 flex flex-wrap items-center justify-center p-3 text-center">
+            <h1 className="text-2xl font-semibold md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+              Siap Maju bersama Ousean?
+            </h1>
+            <p className="font-inter mt-3 text-base md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl">
+              Tingkatkan skill Anda untuk meraih masa depan yang cerah untuk
+              tumbuh berkembang dan Membentuk Ekosistem Masyarakat Indonesia
+              yang Peduli, Membangun, Bersinergi dan Bermanfaat dalam sektor
+              Pendidikan, Kesehatan dan Pemberdayaan Manusia.
+            </p>
+          </article>
+          <button
+            type="button"
+            className="mx-auto mt-5 rounded-md bg-[#0060D1] p-3 font-semibold text-[#FFFFFF] hover:opacity-90"
+          >
+            Hubungi Kami
+          </button>
         </div>
       </div>
     </section>

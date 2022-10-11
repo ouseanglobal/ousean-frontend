@@ -8,17 +8,17 @@ export default function Event() {
     { icon: 'img/event/event-3.svg' },
   ];
   return (
-    <section id="portfolio" className="pt-28 pb-16 flex justify-center">
+    <section id="portfolio" className="mb-40 flex justify-center pt-28 pb-16">
       <div className="container">
-        <div className="w-full flex justify-center text-center">
-          <h2 className="font-bold lg:text-3xl text-2xl mb-9 sm:text-4xl font-Poppins w-[722px]">
+        <div className="flex w-full justify-center text-center">
+          <h2 className="mb-9 w-[722px] font-Poppins text-2xl font-bold sm:text-4xl lg:text-3xl">
             Event dan Penawaran Menarik Untukmu
           </h2>
         </div>
 
-        <div className="w-full px-4 flex flex-wrap justify-center">
+        <div className="flex w-full flex-wrap justify-center px-4">
           {data.map((i) => (
-            <div className="lg:w-1/3 w-full flex justify-center">
+            <div className="flex w-full justify-center lg:w-1/3">
               <Image
                 src={`/${i.icon}`}
                 alt="picture"
@@ -29,16 +29,12 @@ export default function Event() {
           ))}
         </div>
         <div className="flex justify-center">
-          <div className=" bg-[#4ba73c] rounded-2xl hover:opacity-80 relative">
+          <div className=" relative rounded-lg bg-[#1400FF] hover:opacity-80">
             <button
               type="submit"
-              className="flex items-center gap-1 px-9 py-2 text-white text-2xl"
+              className="flex items-center p-2 px-14 text-lg font-semibold text-white"
             >
               Selengkapnya
-              <span className="text-black absolute right-2 top-3">
-                {' '}
-                <ion-icon name="arrow-forward" />
-              </span>
             </button>
           </div>
         </div>

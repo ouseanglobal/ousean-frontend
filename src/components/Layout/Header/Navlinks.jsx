@@ -14,7 +14,7 @@ export default function Navlinks({ setOpen }) {
         {
           Head: 'About Me',
           sublink: [
-            { name: 'Visi & Misi Perusahaan', link: '/VisiMisi' },
+            { name: 'Visi & Misi Perusahaan', link: '/visi' },
             { name: 'Komunitas', link: '/' },
             { name: 'Struktur Perusahaan', link: '/' },
           ],

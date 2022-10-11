@@ -17,10 +17,7 @@ export default function Alasan() {
     },
   ];
   return (
-    <section
-      id="portfolio"
-      className="flex rounded-3xl bg-[#D9D9D9] pt-28 pb-16 justify-center"
-    >
+    <section className="flex justify-center rounded-3xl bg-[#D9D9D9] pt-28 pb-16">
       <div className="flex flex-wrap justify-center">
         <div className="flex w-full justify-center">
           <div className="mb-16 flex max-w-xl justify-center text-center">
@@ -40,11 +37,11 @@ export default function Alasan() {
                   alt="Logo Ousean"
                 />
               </div>
-              <div className="h-[178px] rounded-[18px] bg-[#5F6FAA] md:px-8 px-4 font-Poppins shadow-lg md:w-[402px]">
+              <div className="h-[178px] rounded-[18px] bg-[#5F6FAA] px-4 font-Poppins shadow-lg md:w-[402px] md:px-8">
                 <h3 className="pt-2 text-center text-[36px] font-semibold">
                   {i.title}
                 </h3>
-                <h3 className="mt-3 font-Poppins md:text-xl text-lg md:font-semibold">
+                <h3 className="mt-3 font-Poppins text-lg md:text-xl md:font-semibold">
                   {i.deskripsi}
                 </h3>
               </div>
