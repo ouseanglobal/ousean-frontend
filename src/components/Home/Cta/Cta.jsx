@@ -12,7 +12,7 @@ export default function Cta() {
             <h1 className="text-2xl font-semibold md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
               Siap Maju bersama Ousean?
             </h1>
-            <p className="font-inter mt-3 text-base md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl">
+            <p className="mt-3 text-base md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl">
               Tingkatkan skill Anda untuk meraih masa depan yang cerah untuk
               tumbuh berkembang dan Membentuk Ekosistem Masyarakat Indonesia
               yang Peduli, Membangun, Bersinergi dan Bermanfaat dalam sektor

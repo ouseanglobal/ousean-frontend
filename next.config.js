@@ -8,6 +8,10 @@ const nextConfig = {
         source: '/visi',
         destination: '/Home/visi',
       },
+      {
+        source: '/career',
+        destination: '/Home/career',
+      },
     ];
   },
 };

@@ -60,7 +60,7 @@ export default function Footer() {
             <h1 className="py-5 text-lg font-bold md:text-xl ">TENTANG KAMI</h1>
             <ul>
               <li>
-                <Link href="">
+                <Link href="/visi">
                   <a className="block py-2 text-base font-semibold hover:bg-slate-500 hover:px-2 hover:font-bold hover:text-slate-100 md:text-lg">
                     {' '}
                     Visi & Misi Perusahaan
