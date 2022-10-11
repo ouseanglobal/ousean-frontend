@@ -112,7 +112,7 @@ export default function WeDo() {
 
   return (
     <section className="mb-40 pt-20">
-      <div className="container">
+      <div className="container mx-auto">
         <h1 className="text-center text-3xl font-bold lg:text-4xl">
           Apa Yang Kami Lakukan?
         </h1>

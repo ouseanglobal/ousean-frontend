@@ -24,7 +24,7 @@ export default function Fokus() {
       <div className="container mx-auto px-2">
         <div className="mx-auto">
           <article className="mx-auto p-2 text-center">
-            <h1 className="text-2xl font-semibold md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+            <h1 className="text-2xl font-semibold text-[#414141] md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
               Fokus Pendidikan Untuk Masa Depan
             </h1>
             <p className="mt-5 text-xl text-[#909090] lg:text-2xl xl:text-3xl 2xl:text-4xl">
