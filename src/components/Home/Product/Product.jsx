@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function Alasan() {
+export default function Product() {
   const data = [
     { icon: 'img/Header/1.svg', title: 'Mentor Yang Sudah Profesional' },
     { icon: 'img/Header/2.svg', title: 'Mengasah Hardskill & Sofkill' },
@@ -11,7 +11,7 @@ export default function Alasan() {
     { icon: 'img/Header/6.svg', title: 'Cocok Untuk Kalangan Pemuda' },
   ];
   return (
-    <section id="portfolio" className="pt-28 pb-16 flex justify-center">
+    <section id="portfolio" className="pt-16 pb-16 flex justify-center">
       <div className="container">
         <div className="w-full px-4 flex justify-center">
           <div className="max-w-xl text-center mb-16">

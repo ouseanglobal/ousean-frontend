@@ -5,27 +5,27 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="lg:h-[590px] h-[800px]  bg-[#E3E6FF] flex justify-center mt-24 lg:mb-0 mb-24"
+      className="mt-24 mb-24  flex h-[800px] justify-center bg-[#E3E6FF] lg:mb-0 lg:h-[590px]"
     >
       <div className="container">
         <div className="flex flex-wrap ">
-          <div className="w-full lg:pl-[57px] lg:mt-[100px] lg:w-1/2 flex flex-wrap justify-center lg:block lg:relative px-5">
-            <h1 className="font-Poppins font-semibold lg:text-[48px] text-4xl text-[#414141] text-center lg:text-start leading-[72px]">
+          <div className="flex w-full flex-wrap justify-center px-5 lg:relative lg:mt-[100px] lg:block lg:w-1/2 lg:pl-[57px]">
+            <h1 className="text-center font-Poppins text-4xl font-semibold leading-[72px] text-[#414141] lg:text-start lg:text-[48px]">
               WUJUDKAN IMPIANMU DENGAN
               <span className=" text-[#199DE7]"> OUSEAN</span>
             </h1>
-            <div className="text-justify pt-[10px]">
+            <div className="pt-[10px] text-justify">
               <div className="flex justify-center lg:block">
-                <h4 className="font-Poppinss font-light text-base text-[#414141] w-[225px] lg:w-[375px]">
+                <h4 className="font-Poppinss w-[350px] text-base font-light text-[#414141] lg:w-[375px]">
                   Mari Bergabung Dengan Ousean Group untuk meraih skill dan
                   pengalamanmu untuk yang belum memiliki pengalaman dan ingin
                   belajar untuk siap memulai di dunia kerja
                 </h4>
               </div>
-              <div className="flex justify-end lg:block ml-[40px] pt-[20px]">
+              <div className="ml-[40px] flex lg:justify-end justify-center pt-[20px] lg:block">
                 <button
                   type="submit"
-                  className="bg-[#0060D1] rounded-[5px] px[40px] w-[200px] py-[20px] text-white text-center font-Inter font-semibold md:text-2xl text-xl mt-4 hover:opacity-80"
+                  className=" font-Inter mt-4 w-[200px] rounded-[5px] bg-[#0060D1] py-[20px] text-center text-xl font-semibold text-white hover:opacity-80 md:text-2xl"
                 >
                   Get Started
                 </button>
@@ -50,8 +50,8 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="w-full self-end lg:w-1/2 mt-20">
-            <div className="relative lg:mt-0 lg:right-0">
+          <div className="mt-20 w-full self-end lg:w-1/2">
+            <div className="relative lg:right-0 lg:mt-0">
               <Image
                 width={703}
                 height={532}

@@ -61,7 +61,7 @@ export default function Navlinks({ setOpen }) {
       {links.map((link) => (
         <div>
           <div className="group px-3 text-left md:cursor-pointer gap-0">
-            <div className="flex justify-between gap-1">
+            <div className="flex justify-between gap-1 group">
               <button
                 type="submit"
                 className="py-7"
@@ -78,15 +78,15 @@ export default function Navlinks({ setOpen }) {
                 onClick={() =>
                   heading !== link.name ? setHeading(link.name) : setHeading('')
                 }
-                className={`${
+                className={` group-hover:rotate-180${
                   heading === link.name ? 'rotate-180' : ''
                 } duration-150 ${link.name === 'Home' ? 'opacity-0' : ''}`}
               />
             </div>
             {link.submenu && (
-              <div>
+              <div className="group">
                 <div
-                  className={`absolute top-[84px] hidden  ${
+                  className={`absolute top-[84px] hidden md:group-hover:block ${
                     heading === link.name ? 'md:block' : ''
                   } duration-500`}
                 >
