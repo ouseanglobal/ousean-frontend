@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 export default function Navlinks({ setOpen }) {
   const links = [
@@ -56,6 +57,16 @@ export default function Navlinks({ setOpen }) {
     },
   ];
   const [heading, setHeading] = useState('');
+  const router = useRouter();
+
+  const onClickFunc = (link) => {
+    if (heading !== link.name) {
+      setHeading(link.name);
+    } else {
+      setHeading('');
+    }
+  };
+
   return (
     <>
       {links.map((link) => (
@@ -66,7 +77,7 @@ export default function Navlinks({ setOpen }) {
                 type="submit"
                 className="py-7"
                 onClick={() =>
-                  heading !== link.name ? setHeading(link.name) : setHeading('')
+                  link.name === 'Home' ? router.push('/') : onClickFunc(link)
                 }
               >
                 {link.name}
@@ -102,7 +113,7 @@ export default function Navlinks({ setOpen }) {
                       className="absolute"
                     />
                   </div> */}
-                  <div className="relative right-28 w-[300px] rounded-xl bg-[#d9d9d9cc] py-3 pl-3">
+                  <div className="relative right-28 w-[300px] rounded-xl bg-white/30 backdrop-blur-md py-3 pl-3">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="font-Poppins text-2xl font-semibold">
@@ -111,7 +122,7 @@ export default function Navlinks({ setOpen }) {
                         {mysublinks.Head !== 'Product' && mysublinks.sublink.map((slink) => (
                           <li className="my-4 text-sm">
                             <Link href={slink.link}>
-                              <a className="font-Montserrat text-xl font-normal text-[#ff0000] hover:opacity-80">
+                              <a className="font-Montserrat text-xl font-normal text-gray-900 hover:opacity-80">
                                 {slink.name}
                               </a>
                             </Link>

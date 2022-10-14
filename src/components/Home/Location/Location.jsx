@@ -24,7 +24,7 @@ export default function Location() {
               width={599}
               height={364}
             />
-            <div className="text-center bg-[#D9D9D9] px-[90px] h-[294px] rounded-r-xl">
+            <div className="text-center bg-[#D9D9D9] bg-opacity-[20%] px-[90px] h-[294px] rounded-r-xl">
               <h1 className="w-full lg:text-3xl text-2xl font-semibold font-Poppins mt-12">Location</h1>
               <h2 className="w-full mt-6 font-semibold lg:text-2xl text-xl font-Poppins">PT OUSEAN GLOBAL DIGITAL</h2>
               <p className="w-full mt-6 font-light lg:text-2xl text-lg font-Poppins">Tangerang Selatan, Banten Indonesia</p>

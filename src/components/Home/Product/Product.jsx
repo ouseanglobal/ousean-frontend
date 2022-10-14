@@ -23,7 +23,7 @@ export default function Product() {
 
         <div className="w-full px-4 flex flex-wrap justify-center gap-10">
           {data.map((i) => (
-            <div className="bg-[#D9D9D9] w-full lg:w-[283px] h-[105px] flex justify-center rounded-md ">
+            <div className="bg-[#D9D9D9] bg-opacity-[20%] w-full lg:w-[283px] h-[105px] flex justify-center rounded-md ">
               <Image
                 src={`/${i.icon}`}
                 alt="picture"
