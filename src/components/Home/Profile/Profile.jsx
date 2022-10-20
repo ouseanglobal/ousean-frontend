@@ -39,7 +39,7 @@ export default function Profile() {
             <div className="flex flex-wrap">
               {data.map((i) => (
                 <div className="mx-auto mb-5 mt-3 flex flex-wrap lg:mx-2 xl:mx-10">
-                  <div className=" rounded-lg bg-[#D9D9D9] px-10 pt-10">
+                  <div className=" rounded-lg bg-[#D9D9D9] bg-opacity-[20%] px-10 pt-10">
                     <span className="mx-auto flex items-center justify-center">
                       <Image
                         src={`/${i.icon}`}

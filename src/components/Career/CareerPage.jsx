@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../Layout/Layout';
 import Career from './Career';
 
-function HomePage() {
+function CareerPage() {
   return (
     <Layout>
       <Career />
@@ -10,4 +10,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default CareerPage;

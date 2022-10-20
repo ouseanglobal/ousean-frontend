@@ -43,7 +43,7 @@ export default function Header() {
           }`}
         >
           <li className="py-7 px-3">
-            <Link href="/" className="inline-block font-Poppins">
+            <Link href="/">
               <a>Home</a>
             </Link>
           </li>
