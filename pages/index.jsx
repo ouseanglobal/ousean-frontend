@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import MaintanancePage from '../src/components/Home/MaintanancePage';
 import NotFoundPage from '../src/components/NotFound404/NotFoundPage';
 
 export default function Home() {
