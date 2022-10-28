@@ -13,7 +13,7 @@ function NotFound() {
       animationData: Maintanance,
     });
   }, []);
-  return <div className="container mx-auto -mt-20 w-[850px]" ref={container} />;
+  return <div className="container mx-auto -mt-20 w-[857px]" ref={container} />;
 }
 
 export default NotFound;
