@@ -1318,11 +1318,14 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
+<<<<<<< HEAD
 "lottie-web@^5.9.6":
   "integrity" "sha512-JFs7KsHwflugH5qIXBpB4905yC1Sub2MZWtl/elvO/QC6qj1ApqbUZJyjzJseJUtVpgiDaXQLjBlIJGS7UUUXA=="
   "resolved" "https://registry.npmjs.org/lottie-web/-/lottie-web-5.9.6.tgz"
   "version" "5.9.6"
 
+=======
+>>>>>>> 8d5c7f5769b5e66174812ccfe10d5aee3338fcaf
 "lru-cache@^4.0.1":
   "integrity" "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g=="
   "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz"

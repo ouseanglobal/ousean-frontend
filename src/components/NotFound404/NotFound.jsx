@@ -14,5 +14,10 @@ export default function NotFound() {
       animationData: require('../../../public/img/404/404.json'),
     });
   }, []);
-  return <div className="container" ref={container} />;
+  return (
+    <>
+      {' '}
+      <div className="container" ref={container} />
+    </>
+  );
 }
