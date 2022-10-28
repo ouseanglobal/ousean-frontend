@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import NotFoundPage from '../src/components/NotFound404/NotFoundPage';
+import NotFound from '../src/components/NotFound404/NotFound';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           key="title"
         />
       </Head>
-      <NotFoundPage />
+      <NotFound />
     </>
   );
 }
