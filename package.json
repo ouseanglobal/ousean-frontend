@@ -5,12 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
     "test": ""
   },
   "dependencies": {
     "@ionic/react": "^6.2.6",
+    "lottie-web": "^5.9.6",
     "next": "^12.3.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
